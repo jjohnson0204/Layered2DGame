@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da062529-fed4-451b-874a-e8c39424c23a" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/EntityManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Counters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Rectangles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Types.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/object/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Aurora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Drop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Fog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Lighting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Lightning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Rain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Snow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Strike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Thunderstorm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Wind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphic/Particle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphic/ParticlePool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/KeyHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sound/Sound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/CharacterState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/CutSceneState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/DialougeState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/EnvironmentState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/GameOverState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/LightingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/MapState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/OptionsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/PauseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/PlayState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/SleepState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/StateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/TitleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/TradeState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/TransitionState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ui/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/font/MaruMonica.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/font/PurisaBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/player/hunter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/player/mage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/BlueBoyAdventure.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Dungeon.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/FinalBattle.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Merchant.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/blocked.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/boolaugh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/burning.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/chipwall.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/coin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/cursor.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/cuttree.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/dooropen.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/fanfare.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/gameover.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/hitmonster.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/levelup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/metalsword.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/parry.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/powerup.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/receivedamage.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/sleep.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/speak.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/stairs.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/swish11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/thedeadlaugh.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/thunder.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/unlock.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RainTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/jbr-17.0.9/lib/src.zip!/java.base/java/io/FileInputStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jbr-17.0.9/lib/src.zip!/java.base/java/lang/Class.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/jbr-17.0.9/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2cH4fRMBc8RKig8Wx0WjuLon7JP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RainTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RainTest.testStartAndStop.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.LightsAdventure2D [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Dev Games/Java Games/Game2DAdventure-main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Dev Games/Java Games/LightsAdventure2D/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dev Games\Java Games\LightsAdventure2D\src\main\resources\sounds" />
+      <recent name="C:\Dev Games\Java Games\LightsAdventure2D\src\main\java\environment" />
+      <recent name="C:\Dev Games\Java Games\LightsAdventure2D\src\main\resources" />
+      <recent name="C:\Dev Games\Java Games\LightsAdventure2D\src\main\resources\font" />
+      <recent name="C:\Dev Games\Java Games\LightsAdventure2D\src\main\resources\player" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dev Games\Java Games\LightsAdventure2D\src\main\resources\gui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="graphic" />
+      <recent name="sound" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="LightsAdventure2D" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LightsAdventure2D" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RainTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RainTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-jbr-17.0.9-4caba194b151-51f1b679" />
+        <option value="jdk-17.0.9-jbrsdk-17.0.9-4caba194b151-b614c381" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da062529-fed4-451b-874a-e8c39424c23a" name="Changes" comment="" />
+      <created>1707755274325</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707755274325</updated>
+      <workItem from="1707755275928" duration="113000" />
+      <workItem from="1707755395967" duration="4351000" />
+      <workItem from="1707788180948" duration="21844000" />
+      <workItem from="1707860217498" duration="10887000" />
+      <workItem from="1707871823165" duration="15078000" />
+      <workItem from="1707887100622" duration="44000" />
+      <workItem from="1707887383367" duration="339000" />
+      <workItem from="1707891933163" duration="28065000" />
+      <workItem from="1707968132037" duration="43149000" />
+      <workItem from="1708095035685" duration="16632000" />
+      <workItem from="1708136924178" duration="7693000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/state/TitleState.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/state/TitleState.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/state/TitleState.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/state/PlayState.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/RainTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
