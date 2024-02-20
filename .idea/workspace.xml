@@ -5,89 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da062529-fed4-451b-874a-e8c39424c23a" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data/Vector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/EntityManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Counters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Images.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Rectangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/helpers/Types.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/entity/object/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Aurora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Drop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Fog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Lighting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Lightning.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Rain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Snow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Strike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Thunderstorm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/environment/Wind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphic/Particle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/graphic/ParticlePool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/input/KeyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/GamePanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sound/Sound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/CharacterState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/CutSceneState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/DialougeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/EnvironmentState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/GameOverState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/LightingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/MapState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/OptionsState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/PauseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/PlayState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/SleepState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/StateManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/TitleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/TradeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/state/TransitionState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/MaruMonica.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/PurisaBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/gui/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/player/hunter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/player/mage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/BlueBoyAdventure.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Dungeon.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/FinalBattle.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/Merchant.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/blocked.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/boolaugh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/burning.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/chipwall.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/coin.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/cursor.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/cuttree.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/dooropen.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/fanfare.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/gameover.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/hitmonster.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/levelup.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/metalsword.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/parry.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/powerup.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/receivedamage.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/sleep.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/speak.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/stairs.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/swish11.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/thedeadlaugh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/thunder.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sounds/unlock.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/enemy/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/npc/NPC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/character/player/skill/Skill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/object/equipment/Equipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/events/EventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/EntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/EntityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/character/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entity/character/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/character/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/environment/Rain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/environment/Rain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/graphic/Particle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/graphic/Particle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sound/Sound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sound/Sound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/state/MapState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/state/MapState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/state/StateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/state/StateManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,8 +146,18 @@
       <workItem from="1707891933163" duration="28065000" />
       <workItem from="1707968132037" duration="43149000" />
       <workItem from="1708095035685" duration="16632000" />
-      <workItem from="1708136924178" duration="7693000" />
+      <workItem from="1708136924178" duration="15313000" />
+      <workItem from="1708427875181" duration="8970000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1708276807688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708276807688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

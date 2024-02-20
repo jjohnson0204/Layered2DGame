@@ -1,6 +1,5 @@
 package environment;
 
-import graphic.Particle;
 import main.GamePanel;
 import state.State;
 import state.StateManager;

@@ -21,7 +21,7 @@ public class Particle extends Entity {
     public Particle(Entity generator, Color color,
                     int size, int speed, int maxLife,
                     int xd, int yd) {
-        super();
+        super("particle");
         this.generator = generator;
         this.color = color;
         this.size = size;
@@ -38,7 +38,7 @@ public class Particle extends Entity {
         worldY = generator.worldY + offset;
     }
     public Particle( int x, int y, int vx, int vy, Color color, int size, int life) {
-        super();
+        super("particle");
         this.x = x;
         this.y = y;
         this.vx = vx;

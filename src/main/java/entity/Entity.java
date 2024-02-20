@@ -6,11 +6,11 @@ import state.StateManager;
 import java.awt.*;
 import java.util.function.Consumer;
 
-public class Entity {
+public abstract class Entity {
     // Imported Classes
     public GamePanel gp;
 
-    public String currentState = "";
+    public String currentEntity = "";
 
     // Attributes
     // Character Attributes
@@ -34,23 +34,35 @@ public class Entity {
     public int motion1_duration;
     public int motion2_duration;
     public boolean alive = true;
-    public  Entity(GamePanel gp) {
-        this.gp = gp;
-
-    }
 
     public Entity() {
 
     }
 
     public Entity(String name) {
-        setupState(name);
+        setupEntity(name);
+        setupEntity(name, name + ":0");
     }
 
-    private void setupState(String name) {
-        currentState = name + ":0";
+    public Entity(String name, String runningEntity) {
+        setupEntity(name, runningEntity);
+    }
+
+    private void setupEntity(String name) {
+        currentEntity = name + ":0";
         StateManager.on(name + ":start", (lastState) -> {
             start();
+        });
+        StateManager.on(name+":stop", (lastState) -> {
+            stop();
+        });
+    }
+
+    private void setupEntity(String name, String runningEntity) {
+        currentEntity = runningEntity;
+        StateManager.on(name + ":start", (lastState) -> {
+            start();
+            currentEntity = runningEntity;
         });
         StateManager.on(name+":stop", (lastState) -> {
             stop();
@@ -66,7 +78,7 @@ public class Entity {
     }
 
     public Consumer<String> update = (String lastState) -> {
-        StateManager.trigger(currentState);
+        StateManager.trigger(currentEntity);
     };
 
     public void draw(Graphics2D g2) {

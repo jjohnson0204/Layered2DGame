@@ -68,25 +68,6 @@ public class StateManager {
         return data.get(key);
     }
 
-    public static void resolveOffQueue() {
-        while(!offQueue.isEmpty() && !isIterating) {
-            Pair<String, Consumer<String>> state = offQueue.poll();
-            List<Consumer<String>> listeners = states.get(state.key);
-            if (listeners != null) {
-                listeners.remove(state.value);
-            }
-        }
-    }
-    public static void resolveOnQueue() {
-        while(!onQueue.isEmpty() && !isIterating) {
-            Pair<String, Consumer<String>> state = onQueue.poll();
-            List<Consumer<String>> listeners = states.get(state.key);
-            if (listeners != null) {
-                listeners.add(state.value);
-            }
-        }
-    }
-
     //Testing
     public static void on(String event, Runnable listener) {
         listeners.put(event, listener);

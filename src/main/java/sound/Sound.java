@@ -1,6 +1,6 @@
 package sound;
 
-import main.GamePanel;
+
 
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
